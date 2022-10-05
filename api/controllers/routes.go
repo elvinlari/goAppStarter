@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/elvnneinlari/vodatz/api/middlewares"
+import "github.com/mygoapp/api/middlewares"
 
 func (s *Server) initializeRoutes() {
 	// Home Route

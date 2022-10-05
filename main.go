@@ -1,6 +1,6 @@
 package main
 
-import "github.com/elvnneinlari/vodatz/api"
+import "github.com/mygoapp/api"
 
 func main() {
    api.Run()

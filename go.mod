@@ -1,4 +1,4 @@
-module github.com/elvnneinlari/vodatz
+module github.com/mygoapp
 
 go 1.16
 

@@ -6,7 +6,7 @@ import (
    "os"
 
    "github.com/joho/godotenv"
-   "github.com/elvnneinlari/vodatz/api/controllers"
+   "github.com/mygoapp/api/controllers"
 )
 
 var server = controllers.Server{}
@@ -19,7 +19,7 @@ func Run() {
    } else {
    	fmt.Println("We are getting the env values")
    }
-   server.Initialize(os.Getenv("DB_DRIVER"), os.Getenv("DB_USER"), os.Getenv("DB_PASSWORD"), os.Getenv("DB_PORT"), os.Getenv("DB_HOST"), os.Getenv("DB_NAME"))
+   server.Initialize()
    port := os.Getenv("GO_PORT")
    server.Run(port)
 }
