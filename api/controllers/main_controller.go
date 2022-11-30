@@ -28,10 +28,6 @@ import (
 	"encoding/gob"
 	"strings"
 
-	"github.com/elvnneinlari/synqSMS/api/auth"
-	"github.com/elvnneinlari/synqSMS/api/comms"
-	"github.com/elvnneinlari/synqSMS/api/models"
-	"github.com/elvnneinlari/synqSMS/api/responses"
 	"github.com/streadway/amqp"
 	"golang.org/x/net/context"
 
